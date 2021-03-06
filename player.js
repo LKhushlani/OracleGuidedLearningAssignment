@@ -9,8 +9,11 @@ $.getJSON("https://guidedlearning.oracle.com/player/latest/api/scenario/get/v_Il
 
   $.each(json['data']['structure']['steps'], function(index, element) {
     console.log("index", element['action']['contents']); 
+// $(document).ready
 
-    $(document).too
+    $('#tophf').tooltip({
+      content: 'Hii'
+    });
 
   });
   });
